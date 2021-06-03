@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tweet</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        img{
-            height: 100px;
-            width: 100px;
-            border-radius: 10px;
-            margin-right: 20px;
-
-        }
-        *{
-            background-color: aliceblue;
-
-        }
-        main{
-            position: center;
-        }
-        .tweet-card{
-            margin-top: 100px;
-            display: flex;
-        }
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        margin-right: 20px;
+      }
+      * {
+        background-color: aliceblue;
+      }
+      main {
+        position: center;
+      }
+      .tweet-card {
+        margin-top: 100px;
+        display: flex;
+      }
+      .username-text {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font: outline;
+        font-weight: bolder;
+      }
     </style>
     <main>
-        <div class="tweet-card">
-        <img src="/image/user.jpeg" alt="user">
+      <div class="tweet-card">
+        <img src="/image/user.jpeg" alt="user" />
         <div class="username">
-            <p>@user</p>
-            <p>my tweet lies here</p>
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
         </div>
-        
-      
-    </div>
-
+      </div>
     </main>
-</body>
+  </body>
 </html>
