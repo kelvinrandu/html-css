@@ -61,8 +61,8 @@ main {
 }
 .link{
     display: flex;
-    margin: 2rem 0rem;
-    padding:1rem 5rem;
+    margin: 1rem 0rem;
+    padding:2rem 5rem;
     align-items: center;
 }
 .link h2{
