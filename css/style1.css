@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+}
+main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    
+}
+#calc-actions{
+    display: flex;
+    float: right;
+    padding: 10px;
+}
+.add1-button {
+    flex-shrink: inherit;
+    margin: 20px 10px;
+    width: 10%;
+    align-self: center;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: navajowhite;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: matrix( 3, 0.45, 0.45, 1, 10, 20);
+    -webkit-transition: background,padding 500ms ease;
+    -moz-transition: background , padding 500ms ease;
+}
