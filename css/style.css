@@ -6,14 +6,22 @@
 
 }
 main {
+    background-image: url('../image/logo.png');
     min-height: 100vh;
     background: linear-gradient(to right top,#65dfc9,#6cdbeb);
     display: flex;
     align-items: center;
+    
     justify-content: center;
 
 }
+.glass:hover {
+    animation-play-state: paused;
+}
 .glass{
+
+    animation: glass ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
     background-color: white ;
     min-height: 80vh;
     width: 60%;
@@ -24,6 +32,10 @@ main {
     backdrop-filter:blur(2rem);
     display:flex;
     
+}
+@keyframes glass {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
 }
 .circle1,
 .circle2{

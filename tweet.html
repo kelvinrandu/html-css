@@ -18,6 +18,14 @@
       }
       main {
         position: center;
+        overflow: scroll;
+      }
+      .nav{
+        position: fixed ;
+        z-index: 10;
+        top: 0;
+        backdrop-filter: saturate(180%) blur(20px);
+        transition: height .5s, line-height .5s;
       }
       .tweet-card {
         margin-top: 100px;
@@ -31,13 +39,61 @@
       }
     </style>
     <main>
+      <div class="nav">
+        home
+
+      </div>
       <div class="tweet-card">
-        <img src="/image/user.jpeg" alt="user" />
+        <img src="./image/user.jpeg" alt="user" />
         <div class="username">
           <p class="username-text">@user</p>
           <p>my tweet lies here</p>
         </div>
       </div>
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+      <div class="tweet-card">
+        <img src="./image/user.jpeg" alt="user" />
+        <div class="username">
+          <p class="username-text">@user</p>
+          <p>my tweet lies here</p>
+        </div>
+      </div>
+
     </main>
   </body>
 </html>
